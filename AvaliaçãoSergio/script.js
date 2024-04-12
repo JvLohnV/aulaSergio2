@@ -20,7 +20,8 @@ function sorveteria(){
                 removeSorve = prompt("Remova um sabor")
                 if(sorvete.includes(removeSorve)){
                     local = sabores.indexOf(removeSorve)
-                    sorvete.splice(local,1)
+                    sorvete.splice(local)
+                    alert("Sabor removido!")
                 }else{
                     alert("Não existem sabores adicionados!")
                 }
