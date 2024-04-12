@@ -8,7 +8,6 @@ function sorveteria(){
                 adicionaSorve = prompt("Escolha os sabores(No maximo 3 sabores) ")
                 if(sorvete.length < 3){
                  sorvete.push(adicionaSorve)
-                 visualizar += "Camada " + i + " - Sabor " + sorvete[i] + "\n"
                  i++
                  alert("Sabor Adicionado!")
                 }else{
